@@ -10,11 +10,10 @@ The spatial gradient of wrapped interferometric phases is sensitive to the local
 
 The input data for the IPGS program are all generated from GAMMA software, and the program runs on MATLAB software under the Ubuntu environment.
 
-### %### input files  
+### input files  
 
 % ./diff/*.diff.ml.sm                 % interferogram file  
-
-% ./*.rmli.par                        % parameter file of the intensity map      
+% ./*.rmli.par                        % parameter file of the intensity map        
 % ./EQA.dem                           % the dem file corresponding to the sar image
 % ./EQA.dem_par                       % the parameter file of dem
 % ./lt_fine                           % lookup table
