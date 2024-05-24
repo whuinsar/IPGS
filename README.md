@@ -24,15 +24,15 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 * ph_grad_map.mat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           % matrix file containing latitude, longitude and gradient stacking result
 
 ### process steps
-* Step1:  run MATLAB under Ubuntu and add the code files to the environment variable path and modify the parameters in “ipgs_parms_set.m” file to obtain the corresponding parameter information.
-* Step2:  run the main program (“ipgs_processing_main.m”) to get the IPGS result.
-* Step3:  run "csh ./gmt_phgrad_to_kml.csh" in terminal will generate the kml result.
+* Step1:&nbsp;&nbsp;&nbsp;  run MATLAB under Ubuntu and add the code files to the environment variable path and modify the parameters in “ipgs_parms_set.m” file to obtain the corresponding parameter information.
+* Step2:&nbsp;&nbsp;&nbsp;  run the main program (“ipgs_processing_main.m”) to get the IPGS result.
+* Step3:&nbsp;&nbsp;&nbsp;  run "csh ./gmt_phgrad_to_kml.csh" in terminal will generate the kml result.
 
 ### The contributions
 
 The IPGS MATLAB code was done by Dongxiao Zhang, with guidance and modifications by Dr. Jie Dong and Prof. Lu Zhang. Additionally, we would like to thank Yian Wang and Shaokun Guo for their valuable suggestions and feedback.
 
-If you are interested in our IPGS method and codes, please cite following articles.
+### If you are interested in our IPGS method and codes, please cite following articles.  
 Dongxiao Zhang, Lu Zhang, Jie Dong, Yian Wang, Chengsheng Yang, Mingsheng Liao. Improved phase gradient stacking for landslide detection. Landslides (2024). https://doi.org/10.1007/s10346-024-02263-3.
 Lv Fu, Qi Zhang, Teng Wang, Weile Li, Qiang Xu, Daqing Ge. Detecting slow-moving landslides using InSAR phase-gradient stacking and deep-learning network. Frontiers in Environmental Science (2022). http://doi.org/10.3389/fenvs.2022.963322. 
 
