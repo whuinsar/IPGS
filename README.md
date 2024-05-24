@@ -1,4 +1,5 @@
 Improved phase gradient stacking for landslide detection
+
 The IPGS method
 
 The improved phase gradient stacking (IPGS) first calculates the multi-directional phase gradients of the interferogram at certain step between pixels, then stacks these gradients in temporal dimension, and finally merges the stacked gradients from each direction to obtain complete deformation boundaries and improve the identification of deformation targets.
