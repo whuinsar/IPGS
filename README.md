@@ -20,8 +20,8 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 *  ./gmt_scripts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % code file for getting kml results of phase phgrad stacking  
 
 ### output files 
-% patches_gmt_kml_ipgs &nbsp;&nbsp;&nbsp;        % store kml files about gradient result 
-% ph_grad_map.mat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          % matrix file containing latitude, longitude and gradient stacking result
+* patches_gmt_kml_ipgs &nbsp;&nbsp;&nbsp;        % store kml files about gradient result   
+* ph_grad_map.mat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          % matrix file containing latitude, longitude and gradient stacking result
 
 %### process steps
 Step1:  run MATLAB under Ubuntu and add the code files to the environment variable path and modify the parameters in “ipgs_parms_set.m” file to obtain the corresponding parameter information.
