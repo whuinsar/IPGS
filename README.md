@@ -1,4 +1,4 @@
-Improved phase gradient stacking for landslide detection
+# **Improved phase gradient stacking for landslide detection**
 
 **The IPGS method**
 
