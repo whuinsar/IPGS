@@ -12,7 +12,7 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 
 ### input files  
 
-./diff/*.diff.ml.sm (interferogram file)  
+* ./diff/*.diff.ml.sm (interferogram file)  
 % ./*.rmli.par                        % parameter file of the intensity map        
 % ./EQA.dem                           % the dem file corresponding to the sar image  
 % ./EQA.dem_par                       % the parameter file of dem  
