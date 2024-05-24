@@ -36,6 +36,6 @@ The IPGS MATLAB code was done by Dongxiao Zhang, with guidance and modifications
 Dongxiao Zhang, Lu Zhang, Jie Dong, Yian Wang, Chengsheng Yang, Mingsheng Liao. Improved phase gradient stacking for landslide detection. Landslides (2024). https://doi.org/10.1007/s10346-024-02263-3.
 Lv Fu, Qi Zhang, Teng Wang, Weile Li, Qiang Xu, Daqing Ge. Detecting slow-moving landslides using InSAR phase-gradient stacking and deep-learning network. Frontiers in Environmental Science (2022). http://doi.org/10.3389/fenvs.2022.963322. 
 
-If you have any questions or suggestions, please contact us:
-Dongxiao Zhang, 2020186190086@whu.edu.cn
-Jie Dong, dongjie@whu.edu.cn
+If you have any questions or suggestions, please contact us:  
+Dongxiao Zhang, 2020186190086@whu.edu.cn  
+Jie Dong, dongjie@whu.edu.cn  
