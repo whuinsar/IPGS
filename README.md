@@ -17,7 +17,7 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 *  ./EQA.dem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % the dem file corresponding to the sar image  
 *  ./EQA.dem_par &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % the parameter file of dem  
 *  ./lt_fine &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % lookup table  
-*  ./gmt_scripts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % code file for getting kml results of phase phgrad stacking  
+*  ./gmt_scripts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % code file for getting kml results of phase phgrad stacking  
 
 %### output files 
 % patches_gmt_kml_ipgs        % store kml files about gradient result 
