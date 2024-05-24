@@ -12,12 +12,12 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 
 ### input files  
 
-* ./diff/*.diff.ml.sm &nbsp;&nbsp;&nbsp;%interferogram file  
-*  ./*.rmli.par                        % parameter file of the intensity map        
-*  ./EQA.dem                           % the dem file corresponding to the sar image  
-*  ./EQA.dem_par                       % the parameter file of dem  
-*  ./lt_fine                           % lookup table  
-*  ./gmt_scripts                       % code file for getting kml results of phase phgrad stacking  
+* ./diff/*.diff.ml.sm &nbsp;&nbsp;&nbsp;% interferogram file  
+*  ./*.rmli.par &nbsp;&nbsp;&nbsp; % parameter file of the intensity map        
+*  ./EQA.dem &nbsp;&nbsp;&nbsp; % the dem file corresponding to the sar image  
+*  ./EQA.dem_par &nbsp;&nbsp;&nbsp; % the parameter file of dem  
+*  ./lt_fine &nbsp;&nbsp;&nbsp; % lookup table  
+*  ./gmt_scripts &nbsp;&nbsp;&nbsp; % code file for getting kml results of phase phgrad stacking  
 
 %### output files 
 % patches_gmt_kml_ipgs        % store kml files about gradient result 
