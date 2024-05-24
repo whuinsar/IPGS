@@ -10,7 +10,7 @@ The spatial gradient of wrapped interferometric phases is sensitive to the local
 
 The input data for the IPGS program are all generated from GAMMA software, and the program runs on MATLAB software under the Ubuntu environment.
 
-### input files  
+### Input files  
 
 * ./diff/*.diff.ml.sm &nbsp;&nbsp;&nbsp;% interferogram file  
 *  ./*.rmli.par &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % parameter file of the intensity map        
@@ -19,11 +19,11 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 *  ./lt_fine &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % lookup table  
 *  ./gmt_scripts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; % code file for getting kml results of phase phgrad stacking  
 
-### output files 
+### Output files 
 * patches_gmt_kml_ipgs &nbsp;&nbsp;&nbsp;        % store kml files about gradient result   
 * ph_grad_map.mat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           % matrix file containing latitude, longitude and gradient stacking result
 
-### process steps
+### Process steps
 * Step1:&nbsp;&nbsp;&nbsp;  run MATLAB under Ubuntu and add the code files to the environment variable path and modify the parameters in “ipgs_parms_set.m” file to obtain the corresponding parameter information.
 * Step2:&nbsp;&nbsp;&nbsp;  run the main program (“ipgs_processing_main.m”) to get the IPGS result.
 * Step3:&nbsp;&nbsp;&nbsp;  run "csh ./gmt_phgrad_to_kml.csh" in terminal will generate the kml result.
