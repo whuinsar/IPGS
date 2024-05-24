@@ -1,6 +1,6 @@
 Improved phase gradient stacking for landslide detection
 
-The IPGS method
+The IPGS method··
 
 The improved phase gradient stacking (IPGS) first calculates the multi-directional phase gradients of the interferogram at certain step between pixels, then stacks these gradients in temporal dimension, and finally merges the stacked gradients from each direction to obtain complete deformation boundaries and improve the identification of deformation targets.
 The spatial gradient of wrapped interferometric phases is sensitive to the local deformation signal. Stacking the phase gradient in time can not only weaken the random noise, especially the atmospheric delays but also enhance local deformation signals. It also avoids complicated unwrapping and massive time series analysis. It provides an effective tool for large-scale, rapid, and reliable detection of geological disasters.
@@ -11,11 +11,11 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 
 %### input files 
 % ./diff/*.diff.ml.sm                 % interferogram file
-% ./*.rmli.par                           % parameter file of the intensity map      
+% ./*.rmli.par                        % parameter file of the intensity map      
 % ./EQA.dem                           % the dem file corresponding to the sar image
-% ./EQA.dem_par                    % the parameter file of dem
-% ./lt_fine                                % lookup table
-% ./gmt_scripts                        % code file for getting kml results of phase phgrad stacking
+% ./EQA.dem_par                       % the parameter file of dem
+% ./lt_fine                           % lookup table
+% ./gmt_scripts                       % code file for getting kml results of phase phgrad stacking
 
 %### output files 
 % patches_gmt_kml_ipgs        % store kml files about gradient result 
