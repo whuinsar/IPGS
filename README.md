@@ -26,7 +26,7 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 ### Process steps:
 * Step1:&nbsp;&nbsp;&nbsp;  run MATLAB under Ubuntu and add the code files to the environment variable path and modify the parameters in “ipgs_parms_set.m” file to obtain the corresponding parameter information.
 * Step2:&nbsp;&nbsp;&nbsp;  run the main program (“ipgs_processing_main.m”) to get the IPGS result.
-* Step3:&nbsp;&nbsp;&nbsp;  run "csh ./gmt_phgrad_to_kml.csh" in terminal will generate the kml result.
+* Step3:&nbsp;&nbsp;&nbsp;  run "csh ./gmt_phgrad_to_kml.csh" in terminal will generate the kml result.(Please install the gmt program (version 6.1 or above))
 
 ### The contributions:
 
