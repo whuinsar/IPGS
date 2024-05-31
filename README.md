@@ -1,4 +1,4 @@
-# **Improved phase gradient stacking for landslide detection**
+# **IPGS: Improved phase gradient stacking for landslide detection**
 
 ## **The IPGS method:**
 
@@ -31,12 +31,12 @@ The input data for the IPGS program are all generated from GAMMA software, and t
 ### The contributions:
 
 The IPGS MATLAB code was done by Dongxiao Zhang, with guidance and modifications by Dr. Jie Dong and Prof. Lu Zhang. Additionally, we would like to thank Yian Wang and Shaokun Guo for their valuable suggestions and feedback.
-
-### If you are interested in our IPGS method and codes, please cite following articles:  
-Dongxiao Zhang, Lu Zhang, Jie Dong, Yian Wang, Chengsheng Yang, Mingsheng Liao. Improved phase gradient stacking for landslide detection. Landslides (2024). https://doi.org/10.1007/s10346-024-02263-3.  
-
-Lv Fu, Qi Zhang, Teng Wang, Weile Li, Qiang Xu, Daqing Ge. Detecting slow-moving landslides using InSAR phase-gradient stacking and deep-learning network. Frontiers in Environmental Science (2022). http://doi.org/10.3389/fenvs.2022.963322. 
-
 If you have any questions or suggestions, please contact us:  
 Dongxiao Zhang, 2020186190086@whu.edu.cn  
 Jie Dong, dongjie@whu.edu.cn  
+
+### If you are interested in our IPGS method and codes, please cite following articles:  
+[1] Dongxiao Zhang, Lu Zhang, Jie Dong, Yian Wang, Chengsheng Yang, Mingsheng Liao. Improved phase gradient stacking for landslide detection. Landslides (2024). https://doi.org/10.1007/s10346-024-02263-3.  
+[2] Lv Fu, Qi Zhang, Teng Wang, Weile Li, Qiang Xu, Daqing Ge. Detecting slow-moving landslides using InSAR phase-gradient stacking and deep-learning network. Frontiers in Environmental Science (2022). http://doi.org/10.3389/fenvs.2022.963322. 
+
+
